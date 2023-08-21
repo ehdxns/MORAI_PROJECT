@@ -1,5 +1,5 @@
 # MORAI_PROJECT
-Morai Simulator 프로젝트 소스코드입니다
+MORAI Simulator 프로젝트 소스코드입니다
 
 ## Environment Setting
 |OS|Version|
@@ -8,7 +8,7 @@ Morai Simulator 프로젝트 소스코드입니다
 |ROS|Melodic|
 
 ## Camera
-코드에 대한 자세한 내용은 [여기]를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](camera_gps/README.md)를 참고해 주시길 바랍니다
 
 <details>
 <summary>1. sub_camera.py </summary>
@@ -101,7 +101,7 @@ rosrun scout_ros 9.LAKS.py
 </details>
 
 ## GPS
-코드에 대한 자세한 내용은 [여기]를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](camera_gps/README.md)를 참고해 주시길 바랍니다
 
 <details>
 <summary>path_maker.launch </summary>
@@ -124,7 +124,7 @@ roslaunch scout_ros planner.launch
 </details>
 
 ## SLAM
-코드에 대한 자세한 내용은 [여기]를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](slam_navigation/README.md)를 참고해 주시길 바랍니다
 
 <details>
 <summary>slam_gmapping_pr2.launch </summary>
@@ -142,7 +142,7 @@ rosrun map_server map_saver
 </details>
 
 ## Navigation
-코드에 대한 자세한 내용은 [여기]를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](slam_navigation/README.md)를 참고해 주시길 바랍니다
 
 <details>
 <summary> navigation.launch </summary>
