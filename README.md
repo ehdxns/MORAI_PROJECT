@@ -13,6 +13,9 @@ MORAI Simulator 프로젝트 소스코드입니다
 <details>
 <summary>1. sub_camera.py </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/40868fa2-8f9e-40bd-8c5e-99b2df64a903" width="60%" height="60%" title="1. sub_camera.py"></p>
+
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 rosrun scout_ros 1.sub_camera.py 
@@ -23,6 +26,8 @@ rosrun scout_ros 1.sub_camera.py
 <details>
 <summary>2. pub_camera.py </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/94d328ba-9a2d-4f3f-a533-5f5fae1117ae" width="60%" height="60%" title="2. pub_camera.py"></p>
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 rosrun scout_ros 2.pub_camera.py 
@@ -32,6 +37,7 @@ rosrun scout_ros 2.pub_camera.py
 
 <details>
 <summary>3. bird_eye_view.py </summary>
+
 
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
