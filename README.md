@@ -125,6 +125,8 @@ rosrun scout_ros 9.LAKS.py
 <details>
 <summary>path_maker.launch </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/9e4973de-3d70-4510-b733-c7a1b048b71e" width="60%" height="60%" title="path_maker.launch"></p>
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 roslaunch scout_ros path_maker.launch 
