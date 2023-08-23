@@ -98,6 +98,8 @@ rosrun scout_ros 7.binary_line.py
 <details>
 <summary>8. sliding_window.py </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/896efc26-0d98-4047-b3df-1823f5ba65a5" width="60%" height="60%" title="8. sliding_window.py"></p>
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 rosrun scout_ros 8.sliding_window.py 
@@ -107,6 +109,8 @@ rosrun scout_ros 8.sliding_window.py
 
 <details>
 <summary>9. LAKS.py </summary>
+
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/e9b52321-8216-4c20-890c-81f43d9c1af5" width="60%" height="60%" title="9. LAKS.py"></p>
 
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
