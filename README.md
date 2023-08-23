@@ -38,6 +38,7 @@ rosrun scout_ros 2.pub_camera.py
 <details>
 <summary>3. bird_eye_view.py </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/1adb95dc-ccc8-41cf-b09f-2a6efc4e768f" width="60%" height="60%" title="3. bird_eye_view.py"></p>
 
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
@@ -49,6 +50,8 @@ rosrun scout_ros 3.bird_eye_view.py
 <details>
 <summary>4. white_line_detect.py </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/076c7b22-f1fd-4211-95c0-ac8771cdada0" width="60%" height="60%" title="4. white_line_detect.py"></p>
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 rosrun scout_ros 4.white_line_detect.py 
@@ -58,6 +61,8 @@ rosrun scout_ros 4.white_line_detect.py
 
 <details>
 <summary>5. yellow_line_detect.py </summary>
+
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/72e87e54-b45b-4d48-b325-d42d1608d8bf" width="60%" height="60%" title="5. yellow_line_detect.py"></p>
 
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
@@ -69,6 +74,8 @@ rosrun scout_ros 5.yellow_line_detect.py
 <details>
 <summary>6. blend_line.py </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/2f81476d-18f0-40ca-b1c7-36c75d1bf381" width="60%" height="60%" title="6. blend_line.py"></p>
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 rosrun scout_ros 6.blend_line.py 
@@ -78,6 +85,8 @@ rosrun scout_ros 6.blend_line.py
 
 <details>
 <summary>7. binary_line.py </summary>
+
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/0a986f04-44dd-4674-bab4-8fcf9e77d9c3" width="60%" height="60%" title="7. binary_line.py"></p>
 
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
