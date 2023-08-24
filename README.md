@@ -137,6 +137,8 @@ roslaunch scout_ros path_maker.launch
 <details>
 <summary>planner.launch </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/6011e374-c0d7-4989-b782-c0d04d7fa588" width="60%" height="60%" title="planner.launch"></p>
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 roslaunch scout_ros planner.launch
@@ -149,6 +151,8 @@ roslaunch scout_ros planner.launch
 
 <details>
 <summary>slam_gmapping_pr2.launch </summary>
+
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/3ae3fcba-dcf6-426c-b670-0b69243c6a95" width="60%" height="60%" title="slam_gmapping_pr2.launch"></p>
 
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
