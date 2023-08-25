@@ -1,5 +1,5 @@
 # MORAI_PROJECT
-MORAI Simulator 프로젝트 소스코드입니다
+MORAI Simulator 프로젝트 소스코드입니다.
 
 ## Environment Setting
 |OS|Version|
@@ -8,7 +8,7 @@ MORAI Simulator 프로젝트 소스코드입니다
 |ROS|Melodic|
 
 ## Camera
-코드에 대한 자세한 내용은 [여기](camera_gps/README.md)를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](camera_gps/README.md)를 참고해 주시길 바랍니다.
 
 <details>
 <summary>1. sub_camera.py </summary>
@@ -120,7 +120,7 @@ rosrun scout_ros 9.LAKS.py
 </details>
 
 ## GPS
-코드에 대한 자세한 내용은 [여기](camera_gps/README.md)를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](camera_gps/README.md)를 참고해 주시길 바랍니다.
 
 <details>
 <summary>path_maker.launch </summary>
@@ -147,7 +147,7 @@ roslaunch scout_ros planner.launch
 </details>
 
 ## SLAM
-코드에 대한 자세한 내용은 [여기](slam_navigation/README.md)를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](slam_navigation/README.md)를 참고해 주시길 바랍니다.
 
 <details>
 <summary>slam_gmapping_pr2.launch </summary>
@@ -160,6 +160,8 @@ roslaunch kw_tf tf_setting.launch
 roslaunch pointcloud_to_laserscan sample_node.launch
 roslaunch gmapping slam_gmapping_pr2.launch
 ```
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/105b5791-0142-48d3-ac6e-e2abf04cbe77" width="60%" height="60%" title="map"></img><br/></p>
+
 ```python
 rosrun map_server map_saver
 ```
@@ -167,10 +169,12 @@ rosrun map_server map_saver
 </details>
 
 ## Navigation
-코드에 대한 자세한 내용은 [여기](slam_navigation/README.md)를 참고해 주시길 바랍니다
+코드에 대한 자세한 내용은 [여기](slam_navigation/README.md)를 참고해 주시길 바랍니다.
 
 <details>
 <summary> navigation.launch </summary>
+
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/ef0ab727-3bc3-47e4-a936-5b2ebdead674" width="60%" height="60%" title="navigation.launch"></p>
 
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
@@ -184,12 +188,15 @@ roslaunch kw_tf navigation.launch
 <details>
 <summary> application.py </summary>
 
+<p align="center"><img src="https://github.com/ehdxns/MORAI_PROJECT/assets/129836561/39e1c14e-cdbe-4ef6-81e1-9b57d370e436" width="60%" height="60%" title="application.py"></p>
+
 ```python
 roslaunch rosbridge_server rosbridge_websocket.launch
 roslaunch kw_tf tf_setting.launch
 roslaunch pointcloud_to_laserscan sample_node.launch
 roslaunch kw_tf navigation.launch
 ```
+
 ```python
 python application.py
 ```
