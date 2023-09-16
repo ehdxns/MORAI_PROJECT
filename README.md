@@ -1,4 +1,4 @@
-# MORAI_PROJECT
+# MORAI_Simulator
 MORAI Simulator 프로젝트 소스코드입니다.
 
 ## Environment Setting
