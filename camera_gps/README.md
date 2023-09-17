@@ -4,6 +4,7 @@
 <summary>1. sub_camera.py </summary>
 
 <br>
+
 ROS를 이용하여 CompressedImage 유형의 Topic을 Subscribe 하고, 받은 이미지를 OpenCV를 통해 화면에 표시하는 역할
 
 <br>
@@ -53,13 +54,14 @@ if __name__ == '__main__':
  - try 블록 안에서 IMGParser 클래스의 인스턴스를 생성하여 이미치 처리 시작
  - ROS와 관련된 예외가 발생할 경우 해당 예외를 처리 (rospy.ROSInterruptExceptiondms ROS 노드가 중지될 때 발생하는 예외)
 
-<br>
+
 </details>
 
 <details>
 <summary>2. pub_camera.py </summary>
 
 <br>
+
 ROS를 이용하여 CompressedImage 유형의 Topic을 Subscribe 하고, 받은 이미지를 RGB 및 그레이스케일로 변환하여 두 가지 다른 이미지 Topic으로 Publish 하는 역할
 
 <br>
