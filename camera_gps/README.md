@@ -4,6 +4,7 @@
 <summary>1. sub_camera.py </summary>
 
 <br>
+
 ROS에서 사용되는 CvBridge 클래스를 이용하여 MORAI Simulator에서 Publish 하는 Topic을 Subscribe 하고 이를 OpenCV 형식으로 변환하여 화면에 창을 띄우는 역할
 
 <br>
