@@ -44,7 +44,8 @@ except rospy.ROSInterruptException:
         pass
 ```
 
- - 
+ - try 블록 안에서 IMGParser 클래스의 인스턴스를 생성하여 이미치 처리 시작
+ - ROS와 관련된 예외가 발생할 경우 해당 예외를 처리 (rospy.ROSInterruptExceptiondms ROS 노드가 중지될 때 발생하는 예외)
 </details>
 
 # GPS
