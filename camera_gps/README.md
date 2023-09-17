@@ -6,7 +6,6 @@
 <br>
 
 ROS를 이용하여 CompressedImage 유형의 Topic을 Subscribe 하고, 받은 이미지를 OpenCV를 통해 화면에 표시하는 역할
-
 <br>
 
 ```python
@@ -56,7 +55,6 @@ if __name__ == '__main__':
 <br>
 
 ROS를 이용하여 CompressedImage 유형의 Topic을 Subscribe 하고, 받은 이미지를 RGB 및 그레이스케일로 변환하여 두 가지 다른 이미지 Topic으로 Publish 하는 역할
-
 <br>
 
 ```python
